@@ -3,11 +3,12 @@
 
 /* Режим работы */
 enum mode_t {
-    MODE_ERROR,
-    MODE_SENSOR1,
-    MODE_SENSOR2,
-    MODE_CONTROL,
-    MODE_OFF
+    SENSOR1 = 0,
+    SENSOR2 = 1,
+    MESSAGE,
+    SETCONTROL,
+    ONOFF,
+    NOTHING = 255
 };
 
 #endif /* TERMOCONTROL_H */
